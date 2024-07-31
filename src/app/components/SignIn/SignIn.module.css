@@ -17,7 +17,7 @@
 
 .form {
   display: flex;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 0 auto;
   background: #ffffff;
   width: 500px;
@@ -56,7 +56,7 @@
   border: 1px solid #c8c8c8;
   font-family: "Inter";
   padding-left: 15px;
-  border-radius: 15px;
+  border-radius: 10px;
   height: 50px;
 }
 
@@ -83,7 +83,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 1px solid #5465ff;
   justify-content: center;
   background-color: #374bff;
@@ -98,7 +98,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 1px solid #d9d9d9;
   justify-content: center;
   background-color: #ffffff;
@@ -126,7 +126,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   justify-content: space-between;
   background-color: #ffffff;
 }
@@ -141,7 +141,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 1px solid #0077ff;
   justify-content: center;
   background-color: #0077ff;
@@ -157,7 +157,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 1px solid #000;
   justify-content: center;
   background-color: #000;
