@@ -29,23 +29,26 @@ export const FormIn = (props: props) => {
             <Link href="" className={styles["forget"]}>
               Не помню пароль
             </Link>
-            <div className={styles["links"]}>
-              <a href="" className={styles["log"]}>
-                Войти
-              </a>
-              <a href="" className={styles["passkey"]}>
-                Войти по PassKey
-              </a>
-            </div>
-            <div className={styles["connectitives"]}>
-              <a href="" className={styles["conn"]}>
-                <img src="/images/VK.svg" alt="VK" />
-                ВК
-              </a>
-              <a href="" className={styles["conn"]}>
-                <img src="/images/Yandex.svg" alt="Yandex" />
-                ЯНДЕКС
-              </a>
+            <div className={styles["login"]}>
+              <div className={styles["links"]}>
+                <a href="" className={styles["log"]}>
+                  Войти
+                </a>
+                <a href="" className={styles["passkey"]}>
+                  Войти по PassKey
+                </a>
+              </div>
+              <div className={styles["other"]}>Или</div>
+              <div className={styles["connectitives"]}>
+                <a href="" className={styles["VK"]}>
+                  <img src="/images/VK.svg" alt="VK" />
+                  Войти с VK ID
+                </a>
+                <a href="" className={styles["Yandex"]}>
+                  <img src="/images/Yandex.svg" alt="Yandex" />
+                  Войти с Яндекс ID
+                </a>
+              </div>
             </div>
             <div className={styles["notacc"]}>
               <p>Нет аккаунта?</p>

@@ -17,7 +17,7 @@
 
 .form {
   display: flex;
-  border-radius: 40px;
+  border-radius: 15px;
   margin: 0 auto;
   background: #ffffff;
   width: 500px;
@@ -56,7 +56,7 @@
   border: 1px solid #c8c8c8;
   font-family: "Inter";
   padding-left: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
   height: 50px;
 }
 
@@ -131,20 +131,51 @@
   background-color: #ffffff;
 }
 
-.conn {
+.VK {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Inter-SemiBold";
-  color: #000;
-  width: 45%;
+  color: #fff;
+  width: 47%;
   gap: 5px;
   height: 50px;
   display: flex;
   align-items: center;
   border-radius: 15px;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #0077ff;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #0077ff;
+}
+
+.Yandex {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Inter-SemiBold";
+  color: #fff;
+  width: 47%;
+  gap: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid #000;
+  justify-content: center;
+  background-color: #000;
+}
+
+.other {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #000000a6;
+  font-family: "Inter";
+}
+
+.login {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
 
 @media (width <= 650px) {
