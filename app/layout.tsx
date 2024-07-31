@@ -1,24 +1,22 @@
-"use client";
-
-import { Header } from "../app/components/Header/Header";
-import { Footer } from "./components/Footer/Footer";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import React from "react";
-import { usePathname } from "next/navigation";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "SchoolBook",
+  description: "SchoolBook -Studying is easy",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const pathname = usePathname();
   return (
     <html lang="en">
-      <body>
-        {pathname === "/sign/signup" ? null : <Header />}
-        {children}
-        {pathname === "/sign/signup" ? null : <Footer />}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
