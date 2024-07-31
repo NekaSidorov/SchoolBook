@@ -10,7 +10,7 @@
   position: relative;
   top: 20px;
   left: 95px;
-  max-width: 100%;
+  max-width: 1000px;
 }
 
 .footer-bigtext {
@@ -50,5 +50,5 @@
   font-weight: 600;
   text-align: center;
   position: relative;
-  bottom: 220px;
+  bottom: 200px;
 }
