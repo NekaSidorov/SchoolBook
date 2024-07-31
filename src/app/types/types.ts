@@ -1,9 +1,8 @@
 
-export type UserType = {
+export type props = {
     name?: string,
-    id?: number
-}
-
-export type children = {
-    children: React.ReactNode
+    id?: number,
+    isOpened?: boolean,
+    children?: React.ReactNode,
+    close?: VoidFunction
 }

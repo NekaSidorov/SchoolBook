@@ -1,5 +1,5 @@
-import { SignUp } from "./Sign";
-import styles from "./Sign.module.css";
+import { SignUp } from "./SignUp";
+import styles from "./SignUp.module.css";
 
 export const FormUp = () => {
   return (
